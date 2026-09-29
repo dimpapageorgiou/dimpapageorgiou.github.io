@@ -4,11 +4,14 @@
  
 :root {
   --global-bg-color: #{$white-color};
+  /* Light-mode navbar */
+  --global-navbar-bg-color: #e8f1f5; /* eef6f8 */
+
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-theme-color: #2f6f9f; /* {$purple-color} */
+  --global-hover-color: #24597f; /* {$purple-color} */
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
@@ -35,6 +38,9 @@
 
 html[data-theme='dark'] {
   --global-bg-color: #{$grey-color-dark};
+  /* Dark-mode navbar */
+  --global-navbar-bg-color: #1b2b34; /* 1f2a30 */
+
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color-light};

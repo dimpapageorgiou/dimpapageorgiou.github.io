@@ -12,65 +12,161 @@ layout: default
         </header>
 
         <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
+          <div class="home-main">
 
-              {% include figure.html
-              path=profile_image_path
-              class=profile_image_class
-              alt=page.profile.image -%}
-            {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-            {%- endif %}
-          </div>
-          {%- endif %}
+            <div class="home-content">
 
-          <div class="clearfix">
-            {{ content }}
-          </div>
+              {% if page.profile -%}
+                <div class="profile">
 
-          <!-- News -->
-          {% if page.news -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
-            {%- include news.html %}
-          {%- endif %}
+                  {%- if page.profile.image %}
+                    {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
-          <!-- Latest posts -->
-          {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
-            {%- include latest_posts.html %}
-          {%- endif %}
+                    {% if page.profile.image_circular %}
+                      {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+                    {% else %}
+                      {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+                    {% endif %}
 
-          <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
-            {%- include selected_papers.html %}
-          {%- endif %}
+                    {% include figure.html
+                      path=profile_image_path
+                      class=profile_image_class
+                      alt=page.profile.image -%}
+                  {% endif -%}
 
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
+                  <div class="profile-info">
+
+                    {% if page.profile.title %}
+                      <div class="profile-title">
+                        {{ page.profile.title }}
+                      </div>
+                    {% endif %}
+
+                    {% if page.profile.university %}
+                      <div>
+                        {% if page.profile.university_url %}
+                          <a href="{{ page.profile.university_url }}"
+                            target="_blank"
+                            rel="noopener">
+                            {{ page.profile.university }}
+                          </a>
+                        {% else %}
+                          {{ page.profile.university }}
+                        {% endif %}
+                      </div>
+                    {% endif %}
+
+                    {% if page.profile.department %}
+                      <div>
+                        {% if page.profile.department_url %}
+                          <a href="{{ page.profile.department_url }}"
+                            target="_blank"
+                            rel="noopener">
+                            {{ page.profile.department }}
+                          </a>
+                        {% else %}
+                          {{ page.profile.department }}
+                        {% endif %}
+                      </div>
+                    {% endif %}
+
+                    {% if page.profile.group %}
+                      <div>
+                        {% if page.profile.group_url %}
+                          <a href="{{ page.profile.group_url }}"
+                            target="_blank"
+                            rel="noopener">
+                            {{ page.profile.group }}
+                          </a>
+                        {% else %}
+                          {{ page.profile.group }}
+                        {% endif %}
+                      </div>
+                    {% endif %}
+
+                    {% if page.profile.location %}
+                      <div class="profile-location">
+                        {{ page.profile.location }}
+                      </div>
+                    {% endif %}
+
+                    {% if page.profile.address %}
+                      <div class="profile-address">
+                        {% if page.profile.address.first %}
+                          {% for line in page.profile.address %}
+                            <div>{{ line }}</div>
+                          {% endfor %}
+                        {% else %}
+                          {{ page.profile.address }}
+                        {% endif %}
+                      </div>
+                    {% endif %}
+
+                    {% if page.profile.email %}
+                      <div class="profile-email">
+                        <a href="mailto:{{ page.profile.email }}">
+                          <i class="fas fa-envelope"></i>
+                          {{ page.profile.email }}
+                        </a>
+                      </div>
+                    {% endif %}
+
+                    {%- if page.social %}
+                      <div class="profile-social">
+                        {% include social.html hide_email=true hide_github=true hide_rss=true hide_work=true %}
+                      </div>
+                    {%- endif %}
+
+                  </div>
+
+                </div>
+              {%- endif %}
+
+              <div class="clearfix">
+                {{ content }}
               </div>
 
-              <div class="contact-note">
-                {{ site.contact_note }}
+              <div class="funding-title">Research Funding</div>
+              
+              <div class="about-funders">
+                {% for funder_data in site.data.funders %}
+                  {% assign funder = funder_data[1] %}
+
+                  {% if funder.url %}
+                    <a href="{{ funder.url }}"
+                      target="_blank"
+                      rel="noopener"
+                      title="{{ funder.name }}">
+                      <img
+                        src="{{ funder.logo | relative_url }}"
+                        alt="{{ funder.name }}"
+                        class="about-funder-logo"
+                      >
+                    </a>
+                  {% endif %}
+                {% endfor %}
               </div>
 
             </div>
-          {%- endif %}
+
+            {% if page.news -%}
+              <section class="home-latest">
+                <div class="home-section-header">
+                  <h2>Latest</h2>
+
+                  <a href="{{ '/news/' | relative_url }}" class="home-section-link">
+                    All news →
+                  </a>
+                </div>
+
+                {%- include news.html limit=4 %}
+              </section>
+            {% endif %}
+
+          </div>
+          
+
         </article>
 
 </div>

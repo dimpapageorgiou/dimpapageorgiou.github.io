@@ -10,10 +10,20 @@ layout: default
           </header>
 
           <article>
-            <div class="cv">
-              {% for entry in site.data.cv %}
-                <div class="card mt-3 p-3">
-                  <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+            <div class="cv-layout">
+
+              <nav class="cv-toc">
+                {% for entry in site.data.cv %}
+                  <a href="#{{ entry.title | slugify }}">
+                    {{ entry.title }}
+                  </a>
+                {% endfor %}
+              </nav>
+
+              <div class="cv">
+                {% for entry in site.data.cv %}
+                  <div class="card mt-3 p-3" id="{{ entry.title | slugify }}">
+                    <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
                   <div>
                   {% if entry.type == "list" %}
                     {% include cv/list.html %}
@@ -22,14 +32,54 @@ layout: default
                   {% elsif entry.type == "nested_list" %}
                     {% include cv/nested_list.html %}
                   {% elsif entry.type == "time_table" %}
-                   {% include cv/time_table.html %}
+                    {% include cv/time_table.html %}
+                  {% elsif entry.type == "research_projects" %}
+                    {% include cv/research_projects.html %}
+                  {% elsif entry.type == "supervision" %}
+                    {% include cv/supervision.html %}
+                  {% elsif entry.type == "publications" %}
+                    {% include cv/publications.html %}
+                  {% elsif entry.type == "tags" %}
+                    {% include cv/tags.html %}
                   {% else %}
                     {{ entry.contents }}
                   {% endif %}
                   </div>
                 </div>
-              {% endfor %}
+                    {% endfor %}
+                </div>
+
               </div>
-          </article>
+            </article>
 
         </div>
+
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            const sections = document.querySelectorAll(".cv .card[id]");
+            const links = document.querySelectorAll(".cv-toc a");
+
+            const observer = new IntersectionObserver(
+              (entries) => {
+                entries.forEach((entry) => {
+                  if (entry.isIntersecting) {
+                    links.forEach((link) => link.classList.remove("active"));
+
+                    const activeLink = document.querySelector(
+                      '.cv-toc a[href="#' + entry.target.id + '"]'
+                    );
+
+                    if (activeLink) {
+                      activeLink.classList.add("active");
+                    }
+                  }
+                });
+              },
+              {
+                rootMargin: "-20% 0px -70% 0px"
+              }
+            );
+
+            sections.forEach((section) => observer.observe(section));
+          });
+          </script>

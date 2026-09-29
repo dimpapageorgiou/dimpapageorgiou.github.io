@@ -1,0 +1,484 @@
+# Current students
+
+- name: "Matteo Morfino"
+  type: "MSc"
+  status: "current"
+  title: "Homogeneity-based control of underwater vehicles"
+
+- name: "Hans Christian Falkow"
+  type: "MSc"
+  status: "current"
+  title: "Advanced Motion Control of a Variable-Configuration Underwater Vehicle"
+
+- name: "Paul Martin Künnapuu"
+  type: "MSc"
+  status: "current"
+  title: "Machine Learning for Time-Varying Channels Estimation and Equalization in Maritime Environment"
+
+- name: "Jianing Zheng"
+  type: "MSc"
+  status: "current"
+  title: "Modelling and homogeneity-based PID control of underwater vehicle"
+
+
+# Former students — 2026
+
+- name: "Amin Mohseni"
+  type: "MSc"
+  status: "former"
+  year: 2026
+  title: "Control Theoretic Estimation and Equalization of Time-Varying Channels in Maritime Environment"
+
+- name: "Christian Damén Schultz-Nielsen"
+  type: "MSc"
+  status: "former"
+  year: 2026
+  title: "Dimension lifting for safe estimation in disconnected sets"
+
+- name: "Kristoffer Erbo Kjær"
+  type: "MSc"
+  status: "former"
+  year: 2026
+  title: "Modelling and Stability Analysis of Grid Forming Wind Power Plants Subject to Hardware Constraints"
+
+- name: "Mikkel Reinholdt Hansen"
+  type: "MSc"
+  status: "former"
+  year: 2026
+  title: "Nonlinear Control for Antenna Stabilization on Marine Platforms"
+
+- name: "Pedro Castillejo García"
+  type: "MSc"
+  status: "former"
+  year: 2026
+  title: "An Integrated Framework for the Verification of Process Control Models"
+
+- name: "Alasdair Ronald MacLean"
+  type: "MSc"
+  status: "former"
+  year: 2026
+  title: "Fault Diagnosis and Predictive Maintenance for Bang-Bang Thermostat Refrigerators"
+
+- name: "Albert Bernhard Bunkenborg"
+  type: "BSc"
+  status: "former"
+  year: 2026
+  title: "Design, modelling and control of a drone for vertical take-off"
+
+- name: "Valdemar Højlund Rasmussen"
+  type: "BSc"
+  status: "former"
+  year: 2026
+  title: "Design, modelling and control of a drone for vertical take-off"
+
+- name: "Tore Kofod Beyer"
+  type: "BSc"
+  status: "former"
+  year: 2026
+  title: "Linear Control for Antenna Tracking in Maritime Environments"
+
+- name: "Christian Emil Lykkegaard Vedtofte"
+  type: "BSc"
+  status: "former"
+  year: 2026
+  title: "Linear Control for Antenna Tracking in Maritime Environments"
+
+- name: "Marcel Zelent"
+  type: "MSc"
+  status: "former"
+  year: 2026
+  title: "Gas Source Localization using Neural Networks"
+
+- name: "Johan Christian Cederfeld de Simonsen"
+  type: "MSc"
+  status: "former"
+  year: 2026
+  title: "Safe motion control for autonomous interception of underwater vehicles"
+
+- name: "Villiam Bo"
+  type: "MSc"
+  status: "former"
+  year: 2026
+  title: "Safe nonlinear mapping inversion for control and fault diagnosis"
+
+- name: "Taim Hassouni"
+  type: "MSc"
+  status: "former"
+  year: 2026
+  title: "IT/OT Migration in Regulated Pharmaceutical Environments"
+
+- name: "William Bjerg Holst"
+  type: "MSc"
+  status: "former"
+  year: 2026
+  title: "Software-Defined Radio Platform for Intelligent Control of Wireless Communication in Maritime Environment"
+
+
+# Former students — 2025
+
+- name: "Daniel Pons Rotger"
+  type: "MSc"
+  status: "former"
+  year: 2025
+  title: "Residual Based Adaptive Control and Estimation for Wind Turbines Pitch System"
+
+- name: "Marc Chanet"
+  type: "MSc"
+  status: "former"
+  year: 2025
+  title: "Control and estimation for interception of underwater vehicle"
+
+- name: "Sacha Paul Guilbert"
+  type: "BSc"
+  status: "former"
+  year: 2025
+  title: "Modelling, building and testing of an synchrokinetic assembly robot"
+
+- name: "Xiaoyu Yan"
+  type: "MSc"
+  status: "former"
+  year: 2025
+  title: "Neural Network Based Adaptive Control for Wind Turbines Pitch System"
+
+- name: "Liou Xia"
+  type: "BSc"
+  status: "former"
+  year: 2025
+  title: "Modelling and control of a soft robot in the frequency domain"
+
+- name: "Lasse Kjærsgaard"
+  type: "MSc"
+  status: "former"
+  year: 2025
+  title: "High-accuracy control and optimisation of a construction 3D printer"
+
+- name: "Niels Frederik von Tabouillot"
+  type: "BSc"
+  status: "former"
+  year: 2025
+  title: "Control Design of Traction Control System for wheeled vehicle"
+
+- name: "Oscar Nellemann Sjelle"
+  type: "BSc"
+  status: "former"
+  year: 2025
+  title: "Control Design of Traction Control System for wheeled vehicle"
+
+- name: "Albert Skytte Hornbæk"
+  type: "BSc"
+  status: "former"
+  year: 2025
+  title: "Control and tuning of a refrigeration system"
+
+- name: "Lasse Mølkjær Slipsager"
+  type: "BSc"
+  status: "former"
+  year: 2025
+  title: "Control and tuning of a refrigeration system"
+
+- name: "Amal Araweelo Almis"
+  type: "BSc"
+  status: "former"
+  year: 2025
+  title: "Resilient linear control for a magnetic levitation system"
+
+- name: "Emma Louise Blair"
+  type: "BSc"
+  status: "former"
+  year: 2025
+  title: "Resilient linear control for a magnetic levitation system"
+
+- name: "Morten Kleist Hørlyck Sørensen"
+  type: "BSc"
+  status: "former"
+  year: 2025
+  title: "Auto tuning of PID controller for magnetic levitation system"
+
+- name: "Pavlo Bozhok"
+  type: "MSc"
+  status: "former"
+  year: 2025
+  title: "Reactive robot motion control with obstacle avoidance"
+
+
+# Former students — 2024
+
+- name: "Andreas Nørskov Olsen"
+  type: "MSc"
+  status: "former"
+  year: 2024
+  title: "Adaptive Sliding Mode Control for Robotic Manipulator"
+
+- name: "Jens Hilde Jepsen"
+  type: "MSc"
+  status: "former"
+  year: 2024
+  title: "Advanced Control for Magnetic Levitation System"
+
+- name: "Isabella Crescente"
+  type: "MSc"
+  status: "former"
+  year: 2024
+  title: "Fault-Tolerant Adaptive Sliding Mode Control for Wind Turbine Hydraulic Pitch System"
+
+- name: "Antoine Thibault Vié"
+  type: "MSc"
+  status: "former"
+  year: 2024
+  title: "Self-tuning Adaptive Sliding Mode Control for Perturbed Systems"
+
+- name: "Patrik Schermann"
+  type: "MSc"
+  status: "former"
+  year: 2024
+  title: "Nonlinear Fault-Tolerant Control for Wind Turbine Hydraulic Pitch System"
+
+- name: "Magnus Quorning"
+  type: "MSc"
+  status: "former"
+  year: 2024
+  title: "Data-Driven Modelling and Nonlinear Control for Autonomous In-Port Ferry Maneuvering"
+
+- name: "Martin Buchanan Lademann"
+  type: "MSc"
+  status: "former"
+  year: 2024
+  title: "Data-Driven Modelling and Nonlinear Control for Autonomous In-Port Ferry Maneuvering"
+
+- name: "Sebastian Hahn Enevoldsen"
+  type: "MSc"
+  status: "former"
+  year: 2024
+  title: "Data-Driven Modelling and Nonlinear Control for Autonomous In-Port Ferry Maneuvering"
+
+- name: "Casper Grindsted"
+  type: "MSc"
+  status: "former"
+  year: 2024
+  title: "Estimation of Tower Top States for Wind Turbine Systems"
+
+- name: "Giovanni Zaniboni"
+  type: "MSc"
+  status: "former"
+  year: 2024
+  title: "Condition Monitoring of Wind Turbine Blades"
+
+- name: "Julius Nemeth Galsgaard"
+  type: "MSc"
+  status: "former"
+  year: 2024
+  title: "Adaptive Control for Active Noise Cancellation"
+
+- name: "Lars Ørum Ringdal"
+  type: "MSc"
+  status: "former"
+  year: 2024
+  title: "Adaptive Control for Active Noise Cancellation"
+
+- name: "Wojciech Mysliwiec"
+  type: "MSc"
+  status: "former"
+  year: 2024
+  title: "Design, implementation and testing of a collaborative robot cell for camera calibration"
+
+
+# Former students — 2023
+
+- name: "Szilard Czibere"
+  type: "MSc"
+  status: "former"
+  year: 2023
+  title: "Rotor Velocity Estimation and Fault Diagnosis for Wind Turbine Systems"
+
+- name: "Biel Roig"
+  type: "MSc"
+  status: "former"
+  year: 2023
+  title: "Adaptive Sliding Mode Control for Motion Control Systems"
+
+- name: "Jelena Sunka"
+  type: "MSc"
+  status: "former"
+  year: 2023
+  title: "Diagnosis of Sensor Faults in Wind Turbine Systems"
+
+- name: "Jose Artiz Moliner"
+  type: "MSc"
+  status: "former"
+  year: 2023
+  title: "Modelling and Identification of Dynamic Friction"
+
+- name: "Sebastian David Kusio"
+  type: "MSc"
+  status: "former"
+  year: 2023
+  title: "Modelling and control of scrubber system"
+
+- name: "Gustav Stæhr Hassager"
+  type: "MSc"
+  status: "former"
+  year: 2023
+  title: "Modelling and Nonlinear Control of Active Magnetic Bearings"
+
+- name: "Nikki Christoffersen"
+  type: "MSc"
+  status: "former"
+  year: 2023
+  title: "Modelling and Nonlinear Control of Active Magnetic Bearings"
+
+- name: "Piotr Samir Saffarini"
+  type: "MSc"
+  status: "former"
+  year: 2023
+  title: "Modelling, Control and Simulation of an ebike Assistive System"
+
+- name: "Pietro Aldo Refosco"
+  type: "MSc"
+  status: "former"
+  year: 2023
+  title: "Stability and Systematic Tuning of Super Twisting Sliding Mode Control loops"
+
+- name: "Carl Fredrik Johan Spångberg"
+  type: "MSc"
+  status: "former"
+  year: 2023
+  title: "Modeling and estimation of State of Health for lithium-ion phosphate battery cells"
+
+- name: "Shashank Mahendra Deshmukh"
+  type: "MSc"
+  status: "former"
+  year: 2023
+  title: "Design and Analysis of Modular and Scalable Model Predictive Control for MAVs Performing Formations"
+
+- name: "Anders Helbo"
+  type: "MSc"
+  status: "former"
+  year: 2023
+  title: "Modeling and Control of an Automated Lab Evolution Process for Microbial Culturing"
+
+- name: "August Leander Høeg"
+  type: "MSc"
+  status: "former"
+  year: 2023
+  title: "Vision-based Modelling and Estimation of a Dynamical Plastic Sorting System"
+
+- name: "Marcus Alexander Dyhr"
+  type: "BSc"
+  status: "former"
+  year: 2023
+  title: "Modelling and control of radar-servo system"
+
+# Former students — 2022
+
+- name: "Tommy Vu"
+  type: "MSc"
+  status: "former"
+  year: 2022
+  title: "Nonlinear Control of a Magnetic Levitation System"
+
+- name: "Rohat Bozyil"
+  type: "MSc"
+  status: "former"
+  year: 2022
+  title: "Vision-based control for robotic manipulation of pharmaceutical glass cartridges"
+
+- name: "Jakob Akkermann Petersen"
+  type: "MSc"
+  status: "former"
+  year: 2022
+  title: "Visual Force/Torque Hybrid Control for High-Accuracy Manipulation in DLP Printing"
+
+- name: "Alberto Martinez Higueras"
+  type: "MSc"
+  status: "former"
+  year: 2022
+  title: "Digital Twin technology for evaluation of machine safety in Industry 4.0"
+
+
+# Former students — 2021
+
+- name: "Asger Johan Kühl"
+  type: "MSc"
+  status: "former"
+  year: 2021
+  title: "Fault-tolerant in-harbour localisation of marine surface vehicles"
+
+- name: "Martin Jensen"
+  type: "MSc"
+  status: "former"
+  year: 2021
+  title: "Graph optimization for landmark-based SLAM in urban mobile robots"
+
+- name: "Stefan Mathias Carius Larsen"
+  type: "MSc"
+  status: "former"
+  year: 2021
+  title: "Graph optimization for landmark-based SLAM in urban mobile robots"
+
+- name: "Claus Ruotsalainen Lønkjær"
+  type: "MSc"
+  status: "former"
+  year: 2021
+  title: "Automating the 3D printing process step of the soft tooling process chain for injection molding of a 3D Component"
+
+- name: "Johan Kristian Crone"
+  type: "MSc"
+  status: "former"
+  year: 2021
+  title: "Automating the 3D printing process step of the soft tooling process chain for injection molding of a 3D Component"
+
+- name: "Gudrún Dóra Sigurdardóttir"
+  type: "MSc"
+  status: "former"
+  year: 2021
+  title: "Modelling and Nonlinear Control of a Soft Robotic Arm"
+
+- name: "Andreas Gamborg"
+  type: "MSc"
+  status: "former"
+  year: 2021
+  title: "Automatic docking control for autonomous surface vessel"
+
+- name: "Kun Du"
+  type: "MSc"
+  status: "former"
+  year: 2021
+  title: "Diagnosis and Fault-Tolerant Control of a Magnetic Levitation System"
+
+- name: "Vasileios Boutlas"
+  type: "MSc"
+  status: "former"
+  year: 2021
+  title: "Rotor Velocity Estimation and Fault Diagnosis for a Single-Rotor Wind Turbine"
+
+- name: "Harsh Jaiswal"
+  type: "MSc"
+  status: "former"
+  year: 2021
+  title: "Robust Model-Predictive Control for Trajectory Tracking of Micro Air Vehicles under Wind Disturbance"
+
+- name: "Ian Beissmann"
+  type: "MSc"
+  status: "former"
+  year: 2021
+  title: "Advanced Control of Multi-Rotor Wind Turbine"
+
+# Former students — 2020
+
+- name: "Sigurd Engvik Rasch"
+  type: "MSc"
+  status: "former"
+  year: 2020
+  title: "Disturbance Rejection for High-Accuracy Position Control of PMSM in a Robotic Joint"
+
+- name: "Jesper Stau Stald"
+  type: "MSc"
+  status: "former"
+  year: 2020
+  title: "Modelling and Control of Dynamical Suspension-based Plastic Sorting Systems"
+
+- name: "Peder Bülow Borg"
+  type: "MSc"
+  status: "former"
+  year: 2021
+  title: "Model-Based Detection and Isolation of Valve Faults in Four-Stage Spray Dryer System"

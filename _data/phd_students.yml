@@ -1,0 +1,109 @@
+# Current PhD students
+
+- name: "Antoine Thibault Vié"
+  title: "Intelligent Control of Ship-Shore Communication System for Remote Situational Awareness"
+  start_year: 2024
+  start_month: "December"
+  end_year: 2027
+  status: current
+  role: "Main supervisor"
+  email: "anthv@dtu.dk"
+  img: "/assets/img/Antoine.jpg"
+  projects:
+    - slgreen
+
+- name: "Nick Hauptvogel"
+  title: "Learning-based parameter estimation in high-dimensional spaces for marine engine commissioning"
+  start_year: 2026
+  start_month: "June"
+  end_year: 2029
+  status: current
+  role: "Main supervisor"
+  email: "nickha@dtu.dk"
+  img: "/assets/img/Nick.jpg"
+  projects:
+    - smart-ai
+
+- name: "Christian Damén Schultz-Nielsen"
+  title: "Dimension lifting for singularity avoidance in dynamical systems"
+  start_year: 2026
+  start_month: "September"
+  end_year: 2029
+  status: current
+  role: "Main supervisor"
+  email: "chdsn@dtu.dk"
+  img: "/assets/img/Christian.jpg"
+  projects:
+    - safe-lift
+
+- name: "Villiam Holger Bo"
+  title: "Safe Estimation via Topology Shaping"
+  start_year: 2026
+  start_month: "October"
+  end_year: 2029
+  status: current
+  role: "Main supervisor"
+  email: "vilbo@dtu.dk"
+  img: "/assets/img/Villiam.jpg"
+  projects:
+    - safe-t
+
+- name: "Susan Basnet"
+  title: "Aerial Robots Design and Control Systems for Inspection of Confined Spaces"
+  start_year: 2024
+  start_month: "March"
+  end_year: 2027
+  status: current
+  role: "Co-supervisor"
+  email: "susba@dtu.dk"
+  img: "/assets/img/Susan.png"
+  projects:
+
+- name: "Anastasia Costanza Aiassa"
+  title: "Aerial Robots Design and Control Systems for Inspection of Confined Spaces"
+  start_year: 2026
+  start_month: "July"
+  end_year: 2029
+  status: current
+  role: "Co-supervisor"
+  email: "anasc@dtu.dk"
+  img: "/assets/img/Anastasia.png"
+  projects:
+    - u-shield
+
+
+# Former PhD students
+
+- name: "Alessio Dallabona"
+  title: "Fault Tolerant Control for Wind Turbines"
+  start_year: 2023
+  start_month: "February"
+  end_year: 2026
+  status: former
+  role: "Main supervisor"
+  email: 
+  img: "/assets/img/Alessio.png"
+  projects:
+    - hyrel
+
+- name: "Adrià Mompo Alepuz"
+  title: "A hybrid framework for robust soft-robot control: model-based and bio-inspired adaptation to uncertainties"
+  start_year: 2022
+  start_month: "September"
+  end_year: 2026
+  status: former
+  role: "Co-supervisor"
+  email: 
+  img: "/assets/img/Adria.jpg"
+  projects:
+
+- name: "Peter Nicholas Hansen"
+  title: "Autonomous Supervision for Safe Ship Operation with Temporarily Unmanned Bridge"
+  start_year: 2020
+  start_month: "January"
+  end_year: 2023
+  status: former
+  role: "Co-supervisor"
+  email: pnha@dtu.dk
+  img: "/assets/img/collaborators/Nicholas.jpg"
+  projects:

@@ -1,0 +1,98 @@
+oersted:
+  name: "Ørsted"
+  logo: "/assets/img/partners/oersted.png"
+  url: "https://orsted.dk/"
+
+vestas:
+  name: "Vestas"
+  logo: "/assets/img/partners/Vestas.png"
+  url: "https://www.vestas.com/en"
+
+everllence:
+  name: "Everllence"
+  logo: "/assets/img/partners/Everllence.png"
+  url: "https://www.everllence.com"
+
+forcetechnology:
+  name: "Force Technology"
+  logo: "/assets/img/partners/force-technology.png"
+  url: "https://www.forcetechnology.com"
+
+danfoss:
+  name: "Danfoss"
+  logo: "/assets/img/partners/danfoss.png"
+  url: "https://www.danfoss.com"
+
+kth:
+  name: "KTH Royal Institute of Technology"
+  logo: "/assets/img/partners/kth.png"
+  url: "https://www.kth.se"
+
+maersk:
+  name: "Mærsk"
+  logo: "/assets/img/partners/Maersk.png"
+  url: "https://www.maersk.com"
+
+danpilot:
+  name: "DanPilot"
+  logo: "/assets/img/partners/danpilot.png"
+  url: "https://www.danpilot.dk"
+
+aprendio:
+  name: "Aprendio"
+  logo: "/assets/img/partners/aprendio.png"
+  url: "https://www.aprendio.io"
+
+sdu:
+  name: "SDU Syddansk Universitet"
+  logo: "/assets/img/partners/Sdu.png"
+  url: "https://www.sdu.dk"
+
+aau:
+  name: "Aalborg Universitet"
+  logo: "/assets/img/partners/aau.png"
+  url: "https://www.aau.dk"
+
+teledyne-marine:
+  name: "Teledyne Marine"
+  logo: "/assets/img/partners/teledyne.png"
+  url: "https://www.teledynemarine.com/brands/reson"
+
+ucy-kios:
+  name: "UCY KOIOS Research Center"
+  logo: "/assets/img/partners/ucy.png"
+  url: "https://www.kios.ucy.ac.cy/"
+  
+dtu-wind:
+  name: "DTU Department of Wind and Energy Systems"
+  logo: "/assets/img/partners/dtu-wind.png"
+  url: "https://www.wind.dtu.dk/"
+
+dtu-fysik:
+  name: "DTU Department of Physics"
+  logo: "/assets/img/partners/dtu-fysik.png"
+  url: "https://www.physics.dtu.dk/"
+dtu-electro:
+  name: "DTU Department of Electrical and Photonics Engineering"
+  logo: "/assets/img/partners/dtu-wind.png"
+  url: "https://www.electro.dtu.dk/"
+
+dtu-construct:
+  name: "DTU Department of Civil and Mechanical Engineering"
+  logo: "/assets/img/partners/dtu-wind.png"
+  url: "https://www.construct.dtu.dk/"
+
+simac:
+  name: "Svendborg International Maritime Academy"
+  logo: "/assets/img/partners/simac.png"
+  url: "https://www.simac.dk/"
+
+siemens-gamesa:
+  name: "Siemens Gamesa"
+  logo: "/assets/img/partners/Siemens_gamesa.png"
+  url: "https://www.siemensgamesa.com/"
+
+umanitoba:
+  name: "University of Manitoba"
+  logo: "/assets/img/partners/umanitoba.png"
+  url: "https://www.umanitoba.ca/"

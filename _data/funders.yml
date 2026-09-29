@@ -1,0 +1,47 @@
+dff:
+  name: "Independent Research Fund Denmark"
+  short_name: "DFF"
+  logo: "/assets/img/funders/dff-logo-big.png"
+  url: "https://dff.dk/"
+
+innovation-fund-denmark:
+  name: "Innovation Fund Denmark"
+  short_name: "IFD"
+  logo: "/assets/img/funders/ifd.png"
+  url: "https://innovationsfonden.dk/"
+
+eudp:
+  name: "Energy Technology Development and Demonstration Programme"
+  short_name: "EUDP"
+  logo: "/assets/img/funders/EUDP.png"
+  url: "https://eudp.dk/"
+
+orientsFond:
+  name: "Orients Fond"
+  short_name: "orientsFond"
+  logo: "/assets/img/funders/OrientsFond.png"
+  url: "https://orientsfond.dk/"
+
+eu-horizon-europe:
+  name: "European Union"
+  short_name: "EU"
+  logo: "/assets/img/funders/EU.png"
+  url: "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en"
+
+DDMF:
+  name: "Den Danske Maritime Fond"
+  short_name: "DDMF"
+  logo: "/assets/img/funders/DDMF.png"
+  url: "https://dendanskemaritimefond.dk/"
+
+OR:
+  name: "Odense Robotics"
+  short_name: "OR"
+  logo: "/assets/img/funders/or.png"
+  url: "https://www.odenserobotics.dk/"
+
+ddsa:
+  name: "Danish Data Science Academy"
+  short_name: "DDSA"
+  logo: "/assets/img/funders/DDSA.jpg"
+  url: "https://www.ddsa.dk/"  

@@ -1,0 +1,56 @@
+{% assign projects = site.research_projects | sort: "start_year" | reverse %}
+
+{% for project in projects %}
+  <div class="row mt-3">
+    <div class="col-2 col-sm-2 col-md-2 text-center date-column">
+      {% if project.start_year %}
+        {% if project.end_year %}
+          {{ project.start_year }}–{{ project.end_year }}
+        {% else %}
+          {{ project.start_year }}–Present
+        {% endif %}
+      {% endif %}
+    </div>
+
+    <div class="col-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+      <h6 class="title font-weight-bold ml-1 ml-md-4">
+        <a href="{{ project.url | relative_url }}">
+          {{ project.title }}
+        </a>
+      </h6>
+
+      <div class="ml-1 ml-md-4">
+        {% if project.full_title %}
+          <div>{{ project.full_title }}</div>
+        {% endif %}
+
+        {% if project.role %}
+          <strong>{{ project.role }}</strong>
+        {% endif %}
+
+        {% if project.responsibilities %}
+          · {{ project.responsibilities | join: ", " }}
+        {% endif %}
+
+        {% if project.funder %}
+          {% assign funder = site.data.funders[project.funder] %}
+          {% if funder %}
+            <br>
+            {{ funder.name }}
+            {% if project.programme %}
+              · {{ project.programme }}
+            {% endif %}
+          {% endif %}
+        {% endif %}
+
+        {% if project.budget %}
+          <br>
+          Total budget:
+          {{ project.currency }}
+          {{ project.budget | divided_by: 1000000.0 | round: 2 }}
+          million
+        {% endif %}
+      </div>
+    </div>
+  </div>
+{% endfor %}

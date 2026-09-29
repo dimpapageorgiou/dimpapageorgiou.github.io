@@ -1,97 +1,185 @@
-- title: General Information
+- title: Contact Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Position
+      value: Associate Professor of Nonlinear and Fault-Tolerant Control
+
+    - name: Institution
+      value: Technical University of Denmark (DTU)
+
+    - name: Department
+      value: Department of Electrical and Photonics Engineering
+
+    - name: Group
+      value: Control, Robotics and Embodied AI (CREA)
+
+    - name: Location
+      value: B326/124, Kgs. Lyngby, 2800, Denmark
+
+    - name: Email
+      value: dimpa@dtu.dk
+
+- title: Academic Positions
+  type: time_table
+  contents:
+    - title: Associate Professor of Nonlinear and Fault-Tolerant Control
+      institution: Technical University of Denmark (DTU), Department of Electrical and Photonics Engineering
+      year: 2023 - Present
+
+    - title: Assistant Professor in Automation and Control
+      institution: Technical University of Denmark (DTU), Department of Electrical and Photonics Engineering
+      year: 2020 - 2023
+
+    - title: Postdoctoral Researcher
+      institution: Technical University of Denmark (DTU), Department of Electrical Engineering
+      year: 2017 - 2020
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Technical University of Denmark (DTU)
+      year: 2017
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "Thesis: High Accuracy Nonlinear Control and Estimation for Machine Tool Systems"
 
-- title: Experience
+    - title: MSc in Electrical Engineering
+      institution: Technical University of Denmark (DTU)
+      year: 2014
+      description:
+        - Automation and Robot Technology
+        - "GPA: 11.1/12"
+
+    - title: Diploma in Electrical and Computer Engineering
+      institution: National Technical University of Athens
+      year: 2011
+      description:
+        - Information Technology
+        - "Five-year integrated degree"
+        - "GPA: 7.08/10"
+
+- title: Research Interests
+  type: tags
+  contents:
+    - Nonlinear control theory
+    - Sliding mode control
+    - Fault diagnosis and fault-tolerant control
+    - Safe estimation
+    - Condition monitoring
+    - Maritime autonomy
+    - Relieable and resilient operation
+
+- title: Research Projects & Funding
+  type: research_projects
+
+- title: Awards & Distinctions
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - year: 2023
       items:
-        - Description 1.
-        - Description 2.
+        - Best teacher of the semester, MSc course 34746 – Robust and Fault-Tolerant Control
 
-- title: Other Interests
+    - year: 2018
+      items:
+        - Best teacher of the semester, MSc course 31320 – Robust and Fault-Tolerant Control
+
+- title: Professional Activities & Memberships
+  type: time_table
+  contents:
+    - title: Vice Chair
+      institution: IEEE Control Systems Society, Technical Committee on Variable Structure and Sliding Mode Control
+      year: 2026 - Present
+
+    - title: Member
+      institution: IEEE Control Systems Society
+      year: 2024 - Present
+
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Robust and Fault-Tolerant Control
+      institution: MSc course, 10 ECTS
+      year: 2018 - Present
+
+    - title: Topics in Advanced Control
+      institution: PhD course, 5 ECTS
+      year: 2018 - Present
+
+    - title: Linear Control Design 1
+      institution: BSc course, 5 ECTS
+      year: 2020 - Present
+
+    - title: Advanced Fault-Tolerant and Switching Control
+      institution: PhD course, 7.5 ECTS
+      year: 2023
+
+    - title: Advanced Topics in Diagnosis and Fault-Tolerant Control
+      institution: PhD course, 7.5 ECTS
+      year: 2020
+
+    - title: Statistical Methods in Change Detection and Machine Learning
+      institution: PhD course, 5 ECTS
+      year: 2020 - 2021
+
+    - title: Reinforcement Learning for Planning and Decision-Making
+      institution: PhD special course, 7.5 ECTS
+      year: 2021
+
+- title: Invited Talks & Visibility
+  type: time_table
+  contents:
+    - title: "Bridging Virtual and Physical Reality: Ensuring Valid and Relevant Maritime Data"
+      institution: Data, Algorithms and the Physical Maritime Reality, IDA, Copenhagen
+      year: 2026
+
+    - title: Sailing in the Time of Artificial Intelligence – Examining Autonomous Solutions
+      institution: Panel discussion, 5th Monaco Hydrogen Round Table, Monaco Energy Boat Challenge
+      year: 2024
+
+    - title: Advances on Industrial Automation and Control – Math, AI and the Holy Grail of Auto-Commissioning
+      institution: DAU Conference, Copenhagen
+      year: 2024
+
+    - title: Soft Robot Control Demonstration
+      institution: DTU Electro delegation leader, European Robotics Forum (ERF)
+      year: 2023
+
+    - title: Neuromorphic Control for Robotic Manipulation
+      institution: Denmark's Rotary Club visit to DTU Electro AUT
+      year: 2023
+
+    - title: "Greenhopper: Denmark's First Autonomous Ferry"
+      institution: Business France Denmark visit to DTU Center for Collaborative Autonomous Systems (CCAS)
+      year: 2023
+
+    - title: Neuromorphic Control for Robotic Manipulation
+      institution: Business France Denmark visit to DTU Center for Collaborative Autonomous Systems (CCAS)
+      year: 2023
+
+    - title: Machine Learning Enhancement of Digital Twin for Ship Maneuvering Prediction
+      institution: DAU Conference, Copenhagen
+      year: 2022
+
+    - title: Super Twisting Sliding Mode Control in Periodic Systems – Stability and Tuning
+      institution: SMC Online Seminar
+      year: 2021
+
+    - title: High Accuracy Nonlinear Control and Estimation for Machine Tool Systems
+      institution: IDA Conference, Aarhus
+      year: 2019
+
+    - title: Maskiner kompenserer selv for slitage
+      institution: IDA Conference, Copenhagen
+      year: 2018
+
+- title: Supervision
+  type: supervision
+
+- title: Academic Service
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "Reviewer: Automatica, IEEE Transactions on Automatic Control, Control Engineering Practice, IEEE Transactions on Control Systems Technology, IEEE Control Systems Letters, International Journal of Control, IEEE Transactions on Industrial Electronics, Mechatronics, and International Journal of Advanced Robotic Systems."
+    - "Editorial service: Guest Editor, Control Engineering Practice."
+
+- title: Selected Publications
+  type: publications

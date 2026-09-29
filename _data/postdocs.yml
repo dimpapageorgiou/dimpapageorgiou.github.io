@@ -1,0 +1,15 @@
+# Current postdocs
+
+
+# Former postdocs
+
+- name: "Jeppe Heini Mikkelsen"
+  start_year: 2025
+  end_year: 2025
+  status: former
+  title: "ENDYPOS"
+  projects:
+    - endypos
+  role: "Supervisor"
+  email:
+  img: "/assets/img/Jeppe.jpg"

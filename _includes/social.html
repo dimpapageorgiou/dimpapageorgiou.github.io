@@ -1,4 +1,4 @@
-            {%- if site.email -%}
+            {%- if site.email and include.hide_email != true -%}
             <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a>
             {% endif %}
             {%- if site.telegram_username -%}
@@ -25,7 +25,7 @@
             {%- if site.research_gate_profile -%}
             <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
             {% endif %}
-            {%- if site.github_username -%}
+            {%- if site.github_username and include.hide_github != true -%}
             <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
             {% endif %}
             {%- if site.linkedin_username -%}
@@ -97,6 +97,6 @@
             {%- if site.discord_id -%}
             <a href="https://discord.com/users/{{ site.discord_id }}" title="Discord"><i class="fab fa-discord"></i></a>
             {% endif %}
-            {%- if site.rss_icon -%}
+            {%- if site.rss_icon and include.hide_rss != true -%}
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             {% endif %}

@@ -1,0 +1,131 @@
+- name: "Dimos V. Dimarogonas"
+  status: current
+  company: kth
+  email: dimos@kth.se
+  img: "/assets/img/collaborators/Dimos_Dimarogonas.jpg"
+  projects:
+    - safe-t
+
+- name: "Henrik C. Pedersen"
+  status: current
+  company: aau
+  email: hcp@energy@aau.dk
+  img: "/assets/img/collaborators/HenrikClemmensenPedersen.jpg"
+  projects:
+    - hyrel
+
+- name: "Anca Daniela Hansen"
+  status: current
+  company: dtu-wind
+  email: anca@tu.dk
+  img: "/assets/img/collaborators/Anca.jpg"
+  projects:
+    - transition
+
+- name: "Armita Pegah Barkhordari"
+  status: current
+  company: everllence
+  email: armita.barkhordari@everllence.com
+  img: "/assets/img/collaborators/Armita.jpg"
+  projects:
+    - smart-ai
+
+- name: "Hans Henrik Niemann"
+  status: current
+  company: dtu-electro
+  email: hahe@dtu.dk
+  img: "/assets/img/collaborators/Henrik_Niemann.jpg"
+  projects:
+    - transition
+
+- name: "Mogens Blanke"
+  status: current
+  company: dtu-electro
+  email: mobl@dtu.dk
+  img: "/assets/img/collaborators/Mogens.jpg"
+  projects:
+    - hyrel
+    - shipping-lab
+
+- name: "Roberto Galeazzi"
+  status: current
+  company: dtu-electro
+  email: roga@dtu.dk
+  img: "/assets/img/collaborators/Roberto.jpg"
+  projects:
+    - slgreen
+    - shipping-lab
+    - safe-lift
+    - smart-ai
+    - u-shield
+    - evoroads
+    - endypos
+    - ainavigator
+
+- name: "Silvia Tolu"
+  status: current
+  company: dtu-electro
+  email: stolu@dtu.dk
+  img: "/assets/img/collaborators/Silvia.jpg"
+  projects:
+    - safe-t
+
+- name: "Peter Nicholas Hansen"
+  status: current
+  company: dtu-electro
+  email: pnha@dtu.dk
+  img: "/assets/img/collaborators/Nicholas.jpg"
+  projects:
+    - u-shield
+    - shipping-lab
+    - ainavigator
+
+- name: "Iñigo Iturrate"
+  status: current
+  company: sdu
+  email: inju@mmmi.sdu.dk
+  img: "/assets/img/collaborators/Inigo.jpg"
+  projects:
+    - colect
+  
+- name: "Morgan Louédec"
+  start_year: 2025
+  end_year: 2025
+  status: current
+  title: "EvoRoads"
+  company: dtu-electro
+  projects:
+    - evoroads
+    - slgreen
+  email: morlo@dtu.dk
+  img: "/assets/img/Morgan.png"
+
+- name: "Duc Trung Hoang"
+  start_year: 2025
+  end_year: 2025
+  status: current
+  title: "EvoRoads"
+  company: dtu-electro
+  projects:
+    - evoroads
+  email: dtrho@dtu.dk
+  img: "/assets/img/Duc.png"
+
+- name: "Yaqub Aris Prabowo"
+  start_year: 2023
+  end_year: 2026
+  status: past
+  title: "AI-Navigator"
+  company: dtu-electro
+  projects:
+    - ainavigator
+  email:
+  img: "/assets/img/collaborators/Yaqub.jpg"
+
+- name: "Jens Brauchli Jensen"
+  status: past
+  company: sdu
+  email: jbje@sdu.dk
+  img: "/assets/img/collaborators/Jens.jpg"
+  projects:
+    - ainavigator

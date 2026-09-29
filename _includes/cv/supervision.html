@@ -1,0 +1,46 @@
+{% assign current_phds = site.data.phd_students | where: "status", "current" %}
+{% assign former_phds = site.data.phd_students | where: "status", "former" %}
+
+{% assign current_phd_count = current_phds | size %}
+{% assign former_phd_count = former_phds | size %}
+{% assign total_phd_count = site.data.phd_students | size %}
+
+{% assign current_postdocs = site.data.postdocs | where: "status", "current" %}
+{% assign former_postdocs = site.data.postdocs | where: "status", "former" %}
+
+{% assign current_postdoc_count = current_postdocs | size %}
+{% assign former_postdoc_count = former_postdocs | size %}
+{% assign total_postdoc_count = site.data.postdocs | size %}
+
+{% assign former_students = site.data.students | where: "status", "former" %}
+{% assign former_msc = former_students | where: "type", "MSc" %}
+{% assign former_bsc = former_students | where: "type", "BSc" %}
+
+{% assign total_supervisions = former_students | size %}
+
+{% assign unique_msc_titles = former_msc | map: "title" | uniq %}
+{% assign unique_bsc_titles = former_bsc | map: "title" | uniq %}
+
+{% assign msc_count = unique_msc_titles | size %}
+{% assign bsc_count = unique_bsc_titles | size %}
+
+<p class="mb-2">
+  <strong>PhD supervision:</strong>
+  {{ total_phd_count }} candidates
+  · {{ current_phd_count }} current
+  · {{ former_phd_count }} completed
+</p>
+
+<p class="mb-2">
+  <strong>Postdoctoral supervision:</strong>
+  {{ total_postdoc_count }} researcher{% if total_postdoc_count != 1 %}s{% endif %}
+  · {{ current_postdoc_count }} current
+  · {{ former_postdoc_count }} former
+</p>
+
+<p class="mb-0">
+  <strong>Student supervision:</strong>
+  {{ total_supervisions }} completed projects
+  · {{ msc_count }} MSc theses
+  · {{ bsc_count }} BSc projects
+</p>

@@ -9,3 +9,7 @@ _site
 Gemfile.lock
 vendor
 
+# Private CV versions
+/private/
+# Alternative navigation layout kept for possible future use
+_pages/research-dropdown.md

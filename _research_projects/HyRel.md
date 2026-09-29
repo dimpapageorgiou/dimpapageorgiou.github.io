@@ -14,7 +14,7 @@ role: "WP Leader"
 responsibilities:
   - "WP7"
 
-funder: eudp
+funders: eudp
 programme:
 
 budget: 33041976
@@ -75,26 +75,49 @@ This is obtained by developing and improving methods to predict when and why a c
 
 <div class="project-info">
 
-  {% if page.funder %}
-  {% assign funder = site.data.funders[page.funder] %}
-
+  {% if page.funders %}
   <div class="project-info-item">
-    <span class="project-info-label">Funder</span>
+    <span class="project-info-label">
+      {% if page.funders.size > 1 %}Funders{% else %}Funder{% endif %}
+    </span>
 
-    <span class="project-info-value">
-      {% if funder %}
-        {% if funder.url and funder.url != "" %}
-          <a href="{{ funder.url }}"
-             target="_blank"
-             rel="noopener">
-            {{ funder.name }}
-          </a>
+    <span class="project-info-value project-funders">
+      {% for funder_id in page.funders %}
+        {% assign funder = site.data.funders[funder_id] %}
+
+        {% if funder %}
+          {% if funder.url and funder.url != "" %}
+            <a class="project-funder"
+               href="{{ funder.url }}"
+               target="_blank"
+               rel="noopener">
+
+              {% if funder.logo %}
+                <img
+                  class="project-funder-logo"
+                  src="{{ funder.logo | relative_url }}"
+                  alt="{{ funder.name }}"
+                >
+              {% endif %}
+
+              <span>{{ funder.name }}</span>
+            </a>
+          {% else %}
+            <span class="project-funder">
+              {% if funder.logo %}
+                <img
+                  class="project-funder-logo"
+                  src="{{ funder.logo | relative_url }}"
+                  alt="{{ funder.name }}"
+                >
+              {% endif %}
+              <span>{{ funder.name }}</span>
+            </span>
+          {% endif %}
         {% else %}
-          {{ funder.name }}
+          <span>{{ funder_id }}</span>
         {% endif %}
-      {% else %}
-        {{ page.funder }}
-      {% endif %}
+      {% endfor %}
     </span>
   </div>
 {% endif %}

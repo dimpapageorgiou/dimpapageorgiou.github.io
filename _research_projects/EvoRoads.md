@@ -3,7 +3,7 @@ layout: page
 title: "EvoRoads"
 project_id: evoroads
 description: Evolutionary Solutions for Realising a Holistic Safe System Approach for All Road Users
-img: assets/img/research_projects/Evoroads.png
+img: assets/img/research_projects/EvoRoads.png
 importance: 8
 category: current
 

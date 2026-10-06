@@ -15,13 +15,14 @@
   status: "current"
   title: "Machine Learning for Time-Varying Channels Estimation and Equalization in Maritime Environment"
 
-- name: "Jianing Zheng"
-  type: "MSc"
-  status: "current"
-  title: "Modelling and homogeneity-based PID control of underwater vehicle"
-
 
 # Former students — 2026
+
+- name: "Jianing Zheng"
+  type: "MSc"
+  status: "former"
+  year: 2026
+  title: "Modelling and homogeneity-based PID control of underwater vehicle"
 
 - name: "Amin Mohseni"
   type: "MSc"

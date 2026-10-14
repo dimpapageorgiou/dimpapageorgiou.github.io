@@ -101,5 +101,5 @@ Banking Effects for Navigation in Confined Waters".
 **Dimitrios Papageorgiou**  , dimpa@dtu.dk <br>
 DTU Electrical and Photonics Engineering
 
-**Thomas Theusen Enevoldsen** , thomas.t.enevoldsen@dk.abb.com <br>
+**Thomas Thuesen Enevoldsen** , thomas.t.enevoldsen@dk.abb.com <br>
 R&D Principal Engineer, ABB Marine & Ports

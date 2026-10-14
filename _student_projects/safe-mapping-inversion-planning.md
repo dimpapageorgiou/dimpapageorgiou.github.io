@@ -100,5 +100,5 @@ Numerical investigations will be carried out in **MATLAB/Simulink or Python** to
 **Dimitrios Papageorgiou**  , dimpa@dtu.dk <br>
 DTU Electrical and Photonics Engineering
 
-**Thomas Theusen Enevoldsen** , thomas.t.enevoldsen@dk.abb.com <br>
+**Thomas Thuesen Enevoldsen** , thomas.t.enevoldsen@dk.abb.com <br>
 R&D Principal Engineer, ABB Marine & Ports

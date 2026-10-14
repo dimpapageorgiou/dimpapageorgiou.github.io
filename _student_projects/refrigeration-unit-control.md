@@ -6,7 +6,7 @@ status: available
 project_types:
   - MSc
 ects: 30-35
-orientation: 2
+orientation: 3
 partners:
 - danfoss
 topics:
@@ -14,7 +14,7 @@ topics:
   - Nonlinear control
   - Auto-tuning
   - Estimation
-importance: 1
+importance: 7
 ---
 
 <div class="project-meta">

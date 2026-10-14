@@ -6,7 +6,7 @@ status: available
 project_types:
   - MSc
 ects: 30-35
-orientation: 2
+orientation: 1
 partners:
   - everllence
 topics:
@@ -14,7 +14,7 @@ topics:
   - Machine learning
   - Diesel engines
   - Model validation
-importance: 1
+importance: 10
 ---
 
 <div class="project-meta">

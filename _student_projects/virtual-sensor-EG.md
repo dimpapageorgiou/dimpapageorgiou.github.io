@@ -14,7 +14,7 @@ topics:
   - Fault diagnosis
   - Diesel engines
   - Estimation
-importance: 1
+importance: 6
 ---
 
 <div class="project-meta">

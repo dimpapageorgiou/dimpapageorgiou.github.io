@@ -6,13 +6,13 @@ status: available
 project_types:
   - MSc
 ects: 30-35
-orientation: 2
+orientation: 4
 partners:
 topics:
   - Magnetic levitation
   - Nonlinear Control
   - Model calibration
-importance: 1
+importance: 12
 ---
 
 <div class="project-meta">

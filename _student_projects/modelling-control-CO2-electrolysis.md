@@ -7,7 +7,7 @@ project_types:
   - BSc
   - MSc
 ects: 30-35 (15-20 for BSc)
-orientation: 2
+orientation: 1
 partners:
 - dtu-fysik
 topics:
@@ -16,7 +16,7 @@ topics:
   - Control
   - Estimation
   - Chemical plants
-importance: 1
+importance: 9
 ---
 
 <div class="project-meta">
@@ -80,7 +80,7 @@ The following list presents possible objectives (depending on the scope and type
 - Design a closed-loop ontrol strategy.
 - Design a scheme for fault diagnosis and condition monitoring of the system. This will include definition and parametrisation of expected faults.
 - Implement the solution (e.g. Matlab/Simulink or Python) and perform simulations/experiments of different operation scenarios. 
-- Define performance metrics and compare the designed virtual sensor against real data. 
+- Define performance metrics and compare the designed solutions against real data. 
 
 
 ## Methods & Tools

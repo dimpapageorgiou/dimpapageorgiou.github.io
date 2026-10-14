@@ -6,12 +6,12 @@ status: available
 project_types:
   - MSc
 ects: 30-35
-orientation: 5
+orientation: 1
 partners:
 topics:
   - Sliding Mode Control
   - Nonlinear Control
-importance: 1
+importance: 4
 ---
 
 <div class="project-meta">

@@ -6,7 +6,7 @@ status: available
 project_types:
   - MSc
 ects: 30-35
-orientation: 3
+orientation: 2
 partners:
 - everllence
 topics:
@@ -14,7 +14,7 @@ topics:
   - Fault diagnosis
   - Diesel engines
   - Estimation
-importance: 1
+importance: 11
 ---
 
 <div class="project-meta">

@@ -6,7 +6,7 @@ status: available
 project_types:
   - MSc
 ects: 30-35
-orientation: 3
+orientation: 4
 partners:
 - oersted
 topics:
@@ -14,7 +14,7 @@ topics:
   - Stability analysis
   - Control
   - Estimation
-importance: 1
+importance: 13
 ---
 
 <div class="project-meta">

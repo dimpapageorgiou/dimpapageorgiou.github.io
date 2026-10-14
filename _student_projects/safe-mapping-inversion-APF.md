@@ -70,12 +70,12 @@ Overcoming such challenges motivates the development of methods that can detect,
 The following objectives are expected to be met and documented in the thesis by the end of the project:
 
 1. Conduct a literature review on the use of APFs for safe control and estimation or collision avoidance. 
-2. Formulate a suitable use case for highlighting the challenge with singularities emerging in estimation problems
-3. Develop tools to model estimate and detect singularities in estimation architectures
-  - Singularity definition within the framework of online parameter estimation
-  - Design online singularity detection algorithm
+2. Formulate a suitable use case for highlighting the challenge with singularities emerging in estimation problems.
+3. Develop tools to model estimate and detect singularities in estimation architectures.
+  - Singularity definition within the framework of online parameter estimation.
+  - Design online singularity detection algorithm.
 4. Design and implement methods for singularity avoidance in control architectures using model based APFs and search/planning algorithms.
-5. Extend the methods for time-varying singularities (moving and expanding)
+5. Extend the methods for time-varying singularities (moving and expanding).
 6. Extend the methods for multiple singularities.
 7. Validate the theoretical findings in simulation.
 

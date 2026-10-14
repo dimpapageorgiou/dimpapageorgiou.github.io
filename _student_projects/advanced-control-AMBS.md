@@ -14,7 +14,7 @@ topics:
   - Adaptive Control
   - Nonlinear Control
   - Active magnetic bearings
-importance: 1
+importance: 5
 ---
 
 <div class="project-meta">

@@ -129,3 +129,11 @@
   img: "/assets/img/collaborators/Jens.jpg"
   projects:
     - ainavigator
+
+- name: "Thomas Thuesen Enevoldsen"
+  status: past
+  company: abb
+  email: thomas.t.enevoldsen@dk.abb.com
+  img: "/assets/img/collaborators/ThomasT.jpg"
+  projects:
+    - endypos

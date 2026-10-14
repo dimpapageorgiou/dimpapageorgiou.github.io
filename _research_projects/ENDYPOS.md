@@ -22,6 +22,7 @@ currency: "DKK"
 
 partners:
   - forcetechnology
+  - abb
 external_url:
 publication_tag: endypos
 ---

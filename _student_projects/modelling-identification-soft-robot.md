@@ -6,7 +6,7 @@ status: available
 project_types:
   - MSc
 ects: 30-35
-orientation: 2
+orientation: 3
 partners:
 topics:
   - Modelling
@@ -14,7 +14,7 @@ topics:
   - Learning-based
   - Estimation
   - Medical rehabilitation
-importance: 1
+importance: 8
 ---
 
 <div class="project-meta">

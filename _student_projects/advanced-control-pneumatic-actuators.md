@@ -15,7 +15,7 @@ topics:
   - Nonlinear Control
   - Pneumatic actuator
   - Gas bearing systems
-importance: 1
+importance: 15
 ---
 
 <div class="project-meta">

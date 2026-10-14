@@ -96,3 +96,8 @@ umanitoba:
   name: "University of Manitoba"
   logo: "/assets/img/partners/umanitoba.png"
   url: "https://www.umanitoba.ca/"
+
+abb:
+  name: "ABB Marine & Ports"
+  logo: "/assets/img/partners/abb.png"
+  url: "https://new.abb.com/marine"

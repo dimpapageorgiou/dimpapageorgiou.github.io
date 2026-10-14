@@ -6,7 +6,7 @@ status: available
 project_types:
   - MSc
 ects: 30-35
-orientation: 1
+orientation: 5
 partners:
 topics:
   - Sliding Mode Control

@@ -7,7 +7,7 @@ project_types:
   - BSc
   - MSc
 ects: 30-35 (15-20 for BSc)
-orientation: 1
+orientation: 2
 partners:
 - dtu-fysik
 topics:

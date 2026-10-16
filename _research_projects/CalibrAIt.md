@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Smart AI
+title: CalibrAIt
 project_id: smart-ai
 description: Learning-based parameter estimation in high-dimensional spaces for marine engine commissioning
 img: assets/img/research_projects/Smart-ai.png
@@ -59,7 +59,7 @@ Identification of large sets of parameters is a fundamental problem relating to 
 rules or fixed statistical models. In contrast, AI-based strategies can dynamically leverage
 structured and unstructured data, identifying hidden patterns and generalising across incomplete or noisy datasets. This enables parameter-assignment models that improve with more data available andadapt to differing design and component variations.
 
-Smart AI investigates methdos for learning-based parameter estimation and calibration in complex, high-dimensional systems, using large two-stroke marine engines as the primary application. By combining historical commissioning data, real-world operational data, and high-fidelity simulations, the project aims to automate and improve engine commissioning while accounting for operational and performance constraints.
+CalibrAIt investigates methdos for learning-based parameter estimation and calibration in complex, high-dimensional systems, using large two-stroke marine engines as the primary application. By combining historical commissioning data, real-world operational data, and high-fidelity simulations, the project aims to automate and improve engine commissioning while accounting for operational and performance constraints.
 
 The project develops [methods] for addressing [problem/application].
 

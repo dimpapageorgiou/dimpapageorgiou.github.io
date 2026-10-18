@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Our [Smart AI]({{ '/research-projects/SmartAI/' | relative_url }}) project has been funded by Innovation Fund Denmark.
+Our [ CalibrAIt]({{ '/research-projects/SmartAI/' | relative_url }}) project has been funded by Innovation Fund Denmark.

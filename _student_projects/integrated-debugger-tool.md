@@ -2,7 +2,7 @@
 layout: page
 title: "Integrated Debugger Tool for Subsystem Failure Analysis"
 description: 
-status: available
+status: not-available
 project_types:
   - MSc
 ects: 30-35

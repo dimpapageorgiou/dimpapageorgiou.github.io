@@ -2,7 +2,7 @@
 layout: page
 title: "Virtual sensor design for estimating exhaust gas temperature (EGT) in marine diesel engines"
 description: 
-status: available
+status: not-available
 project_types:
   - MSc
 ects: 30-35

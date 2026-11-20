@@ -10,13 +10,14 @@
   status: "current"
   title: "Advanced Motion Control of a Variable-Configuration Underwater Vehicle"
 
-- name: "Paul Martin Künnapuu"
-  type: "MSc"
-  status: "current"
-  title: "Machine Learning for Time-Varying Channels Estimation and Equalization in Maritime Environment"
-
 
 # Former students — 2026
+
+- name: "Paul Martin Künnapuu"
+  type: "MSc"
+  status: "former"
+  year: 2026
+  title: "Machine Learning for Time-Varying Channels Estimation and Equalization in Maritime Environment"
 
 - name: "Jianing Zheng"
   type: "MSc"

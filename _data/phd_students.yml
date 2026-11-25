@@ -8,6 +8,7 @@
   status: current
   role: "Main supervisor"
   email: "anthv@dtu.dk"
+  website: "https://anthv-dtu.github.io/"
   img: "/assets/img/Antoine.jpg"
   projects:
     - slgreen
@@ -20,6 +21,7 @@
   status: current
   role: "Main supervisor"
   email: "nickha@dtu.dk"
+  website:
   img: "/assets/img/Nick.jpg"
   projects:
     - smart-ai
@@ -32,6 +34,7 @@
   status: current
   role: "Main supervisor"
   email: "chdsn@dtu.dk"
+  website:
   img: "/assets/img/Christian.jpg"
   projects:
     - safe-lift
@@ -44,6 +47,7 @@
   status: current
   role: "Main supervisor"
   email: "vilbo@dtu.dk"
+  website:
   img: "/assets/img/Villiam.jpg"
   projects:
     - safe-t
@@ -56,6 +60,7 @@
   status: current
   role: "Co-supervisor"
   email: "susba@dtu.dk"
+  website:
   img: "/assets/img/Susan.png"
   projects:
 
@@ -67,6 +72,7 @@
   status: current
   role: "Co-supervisor"
   email: "anasc@dtu.dk"
+  website:
   img: "/assets/img/Anastasia.png"
   projects:
     - u-shield
@@ -82,6 +88,7 @@
   status: former
   role: "Main supervisor"
   email: 
+  website:
   img: "/assets/img/Alessio.png"
   projects:
     - hyrel
@@ -94,6 +101,7 @@
   status: former
   role: "Co-supervisor"
   email: 
+  website:
   img: "/assets/img/Adria.jpg"
   projects:
 
@@ -105,5 +113,6 @@
   status: former
   role: "Co-supervisor"
   email: pnha@dtu.dk
+  website: "https://nicholasphansen.github.io/"
   img: "/assets/img/collaborators/Nicholas.jpg"
   projects:

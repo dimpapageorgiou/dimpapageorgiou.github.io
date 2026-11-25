@@ -70,6 +70,16 @@ nav_order: 4
             </div>
           {% endif %}
 
+          {% if member.website and member.website != empty %}
+            <div class="team-member-website">
+              <a href="{{ member.website | escape }}"
+                target="_blank"
+                rel="noopener noreferrer">
+                <i class="fas fa-globe"></i> Personal website
+              </a>
+            </div>
+          {% endif %}
+
           {% if member.title %}
             <p class="team-member-topic">
               {{ member.title }}
